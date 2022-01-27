@@ -7,12 +7,24 @@ Vue.config.devtools = true;
 const app = new Vue({
     el: '#root',
     data: {
-        firstName: '',
-        lastName: '',
-        tel: '',
-        mail: '',
-        company: '',
-        role: '',
-    }
+        name: '',
+        age: '',
+        gender: '',
+        hometown: '',
+        region: '',
+        avatars: [
+            {
+                name: 'eribe',
+                image: 'https://unite.pokemon.com/images/overview/main-header/eribe.png',
+            },
+            {
+                name: 'eribe',
+                image: 'https://unite.pokemon.com/images/overview/main-header/eribe.png',
+            },
+            {
+            name: 'eribe',
+            image: 'https://unite.pokemon.com/images/overview/main-header/eribe.png',
+            },
+    ]}
 });
 
